@@ -38,6 +38,9 @@ import dynex
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
+# Test Dynex account setup:
+dynex.test()
+
 # Support functions
 
 def calculate_score(constellation, data):
